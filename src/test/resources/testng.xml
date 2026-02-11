@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RAPL Signup Test Suite" parallel="tests" thread-count="3">
+    <test name="Signup Tests - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>            <class name="tests.SignupTest_TC_LG_001"/>
+            <class name="tests.SignupTest_TC_LG_002"/>
+            <class name="tests.SignupTest_TC_LG_003"/>
+            <class name="tests.SignupTest_TC_LG_004"/>
+            <class name="tests.SignupTest_TC_LG_005"/>
+            <class name="tests.SignupTest_TC_LG_006"/>
+            <class name="tests.SignupTest_TC_LG_007"/>
+            <class name="tests.SignupTest_TC_LG_008"/>
+            <class name="tests.SignupTest_TC_LG_009"/>
+            <class name="tests.SignupTest_TC_LG_010"/>
+            <class name="tests.SignupTest_TC_LG_011"/>
+            <class name="tests.SignupTest_TC_LG_012"/>
+            <class name="tests.SignupTest_TC_LG_013"/>
+            <class name="tests.SignupTest_TC_LG_014"/>
+            <class name="tests.SignupTest_TC_LG_015"/>
+        </classes>
+    </test>
+</suite>
